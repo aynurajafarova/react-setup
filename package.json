@@ -7,7 +7,8 @@
     "start": "webpack serve --config webpack/webpack.config.js --env env=dev",
     "build": "webpack --config webpack/webpack.config.js --env env=prod",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "lint": "eslint --fix \"./src/**/*.{js,jsx,ts,tsx,json}\""
+    "lint": "eslint --fix \"./src/**/*.{js,jsx,ts,tsx,json}\"",
+    "format": "prettier --write \"./src/**/*.{js,jsx,ts,tsx,json,css,scss,md}\""
   },
   "repository": {
     "type": "git",
@@ -37,11 +38,14 @@
     "babel-loader": "^8.2.3",
     "css-loader": "^6.6.0",
     "eslint": "^8.9.0",
+    "eslint-config-prettier": "^8.4.0",
     "eslint-plugin-import": "^2.25.4",
     "eslint-plugin-jsx-a11y": "^6.5.1",
+    "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-react": "^7.28.0",
     "eslint-plugin-react-hooks": "^4.3.0",
     "html-webpack-plugin": "^5.5.0",
+    "prettier": "^2.5.1",
     "react-refresh": "^0.11.0",
     "sass": "^1.49.7",
     "sass-loader": "^12.4.0",
