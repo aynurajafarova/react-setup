@@ -1,9 +1,9 @@
 import { FC } from "react";
 
-import reactLogo from "./assets/img/tech_react.png";
-import logo from "./assets/img/react-logo.svg";
+import reactLogo from "./client/shared/assets/img/tech_react.png";
+import logo from "./client/shared/assets/img/react-logo.svg";
 
-import "./assets/styles/main.scss";
+import "./client/shared/assets/styles/main.scss";
 
 const App: FC = () => {
   return (
